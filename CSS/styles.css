@@ -22,14 +22,13 @@ body {
   display: flex;
   flex-direction: column;
   position: static;
-  padding: 0px;
   border: none;
   text-align: center;
   min-height: 100vh;
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  background-color: var(--background-color)
+  background-color: var(--background-color);
 }
 
 h1 {
@@ -46,7 +45,7 @@ h3 {
 }
 
 a {
-  color: var(--link-color)
+  color: var(--link-color);
 }
 
 a:visited {
@@ -54,7 +53,8 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -69,7 +69,8 @@ a:active {
   left: 20px;
 }
 
-.button, button {
+.button,
+button {
   border: none;
   display: inline-block;
   font-family: 'Ubuntu', sans-serif;
@@ -120,7 +121,7 @@ main {
   padding-left: 70px;
   padding-right: 70px;
   margin-right: 200px;
-  margin-left: 200px
+  margin-left: 200px;
 }
 
 .paragraph {
@@ -148,7 +149,7 @@ main {
   flex-shrink: 0;
   border: ridge;
   border-width: 45px;
-  border-color: var(--darkgrey)
+  border-color: var(--darkgrey);
 }
 
 #form-container {
@@ -192,9 +193,9 @@ main {
 
 .c-form-label {
   display: inline-block;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   color: #3d3935;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
   font-size: 1rem;
 }
 
@@ -231,7 +232,7 @@ textarea.c-form-input {
 }
 
 fieldset {
-  margin: .4rem 0;
+  margin: 0.4rem 0;
   padding: 0;
   border: none;
 }
@@ -253,7 +254,7 @@ fieldset {
 
 .three-d-cube {
   display: flex;
-  order: 2
+  order: 2;
 }
 
 .three-d-cube-box {
@@ -360,7 +361,7 @@ fieldset {
   width: 100%;
   padding: 15px;
   border-bottom: 2px solid var(--black);
-  box-shadow: 1px 1px 3px 0px var(--box-shadow-color);
+  box-shadow: 1px 1px 3px 1px var(--box-shadow-color);
   background-color: var(--white);
 }
 
@@ -393,13 +394,13 @@ fieldset {
   margin: 50px;
   padding: 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px
+  grid-gap: 20px;
 }
 
 .grid__item {
   background-color: var(--white);
   border: 2px solid var(--primary-color);
-  box-shadow: 2px 2px 6px 0px var(--box-shadow-color);
+  box-shadow: 2px 2px 6px 1px var(--box-shadow-color);
   padding: 10px, 40px;
 }
 
