@@ -335,7 +335,7 @@ fieldset {
   width: 55px;
   height: 55px;
   padding: 5px;
-  animation: animate 3s linear infinite;
+  animation: animate 1s linear infinite;
   animation-delay: -1s;
 }
 
